@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Charity Organization</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #ff6f61;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #333;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 2rem;
+            text-align: center;
+            background: #f9f9f9;
+            margin: 1rem 0;
+        }
+
+        .section:nth-child(odd) {
+            background: #fff;
+        }
+
+        .section h1, .section h2 {
+            color: #ff6f61;
+            margin-bottom: 1rem;
+        }
+
+        .program {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+        }
+
+        button {
+            background: #ff6f61;
+            color: #fff;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #e6554f;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Animal Care Foundation</div>
+            <ul class="nav-links">
+                <li><a href="#mission">Our Mission</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="mission" class="section">
+            <h1>Our Mission</h1>
+            <p>At Animal Care Foundation, we are committed to rescuing, rehabilitating, and finding loving homes for animals in need. Join us in creating a world where all animals are treated with respect and compassion.</p>
+        </section>
+
+        <section id="programs" class="section">
+            <h2>Our Programs</h2>
+            <div class="program">
+                <h3>Rescue & Rehabilitation</h3>
+                <p>We provide immediate care and medical attention to animals in distress.</p>
+            </div>
+            <div class="program">
+                <h3>Adoption Services</h3>
+                <p>Connecting animals with loving families to ensure they find their forever homes.</p>
+            </div>
+            <div class="program">
+                <h3>Community Education</h3>
+                <p>Offering workshops and resources to promote responsible pet ownership.</p>
+            </div>
+        </section>
+
+        <section id="donate" class="section">
+            <h2>Make a Difference</h2>
+            <p>Your generosity helps us save lives. Donate today to support our mission and provide animals with the care they deserve.</p>
+            <button onclick="donateNow()">Donate Now</button>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: info@animalcarefoundation.org</p>
+            <p>Phone: +1-800-123-4567</p>
+            <p>Address: 123 Animal Care Lane, Compassion City</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Animal Care Foundation. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function donateNow() {
+            alert('Thank you for your generosity! Redirecting to the donation page...');
+        }
+    </script>
+</body>
+</html>
